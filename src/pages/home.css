@@ -1,0 +1,83 @@
+/* a{
+  text-decoration: none;
+} */
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+  }
+  
+  .actionItems{
+    flex: 1;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+  }
+  .logo{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .userimg{
+    /* border:2px solid red; */
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-left: 10px;
+    object-fit:cover;
+  }
+  .logo-name{
+    /* padding: 10px; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile{
+    display:flex;
+    align-items: center;
+  }
+  .name{
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .actionbuttons{
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+  }
+  .actionbutton{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 5px;
+    transition: transform .2s;
+    font-size: larger;
+  }
+  .actionbutton:hover{
+    transform: scale(0.9);
+  }
+  .actionbuttons a{
+    color:black;
+    text-decoration: none;
+  }
+  .actionbutton img{
+    height: 90px;
+    object-fit: cover;
+    width:95px;
+  }
+  .inputbutton{
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    height: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 10px;
+  }
