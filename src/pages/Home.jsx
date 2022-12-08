@@ -4,7 +4,6 @@ import Map from '../components/Map';
 import user from './img/user.jpg'
 import breakdown from './img/breakdown.png'
 import reserve from './img/reserve.png'
-import logo from './img/mech-logo.PNG'
 import  {Link } from 'react-router-dom'
 
 

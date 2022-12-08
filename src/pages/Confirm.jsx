@@ -11,8 +11,8 @@ const Confirm =()=>{
                 const key = 'a203d077f8ebf9472010c673430c7b15'
                 fetch(`http://api.positionstack.com/v1/forward?access_key=${key}&query=${location}`).then(response => response.json())
                     .then(area => {
-                        console.log(area.data[0].longitude)
-                        setPickupCoordinate(`${area.data[0].latitude}, ${area.data[0].longitude}`)
+                        console.log(area.data[0])
+                        setPickupCoordinate(area.data[0])
                     })
                 }
                 useEffect(()=>{

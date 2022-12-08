@@ -24,6 +24,7 @@ console.log(props);
       //   console.log(props.pickupCoordinate);
       // },[])
       
+      
   return (
     <div className='map' id='map'>
         
