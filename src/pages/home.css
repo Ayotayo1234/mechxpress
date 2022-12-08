@@ -10,12 +10,16 @@
   
   .actionItems{
     flex: 1;
-    background-color: rgb(230, 230, 230);
+    background-color: #e6e6e6;
     padding: 10px;
   }
   .logo{
-    font-weight: 600;
-    font-size: 30px;
+    width: 8em;
+    height: 3em;
+    background-image: url(/src/pages/img/mech-logo.PNG);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .userimg{
     /* border:2px solid red; */
