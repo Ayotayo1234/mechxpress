@@ -1,0 +1,27 @@
+export const Mechlist = [
+    {
+        img:'',
+        name:'ayotayo',
+        multiplier:1,
+    },
+    {
+        img:'',
+        name:'blessing',
+        multiplier:1.5,
+    },
+    {
+        img:'',
+        name:'senaror',
+        multiplier:2,
+    },
+    {
+        img:'',
+        name:'sammy',
+        multiplier:1.2,
+    },
+    {
+        img:'',
+        name:'emzykings',
+        multiplier:2.8,
+    }
+]

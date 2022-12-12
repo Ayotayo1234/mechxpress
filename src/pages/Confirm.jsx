@@ -1,7 +1,10 @@
 import {useEffect, React, useState } from 'react'
 import Map from '../components/Map';
+import Rideselector from '../components/Rideselector';
 import './confirm.css'
 import { useSearchParams } from 'react-router-dom'
+import arrow from '../pages/img/arrowback.svg'
+import  {Link } from 'react-router-dom'
 
 const Confirm =()=>{  
 
@@ -31,19 +34,19 @@ const Confirm =()=>{
     useEffect(()=>{
         getClientCoordinate();
         getMechCoordinate();
-    },[])
+    })
     
     
 return (
         <div className='confirm-wrapper'>
-        
+        <Link to='/search'><div className="arrow"><img src={arrow} alt="back" /></div></Link>
             <Map
             clientCoordinates={clientCoordinates}
             mechCoordinates={mechCoordinates} 
              />
             <div className='ride-container'>
-               <div className=''></div>
-               <div className=" "></div>
+               <Rideselector />
+               <div className="confirm-button">Confirm Mech</div>
             </div>
         </div>
     ) 

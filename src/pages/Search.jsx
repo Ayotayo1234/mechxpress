@@ -27,7 +27,7 @@ const Search = () => {
     <div className='search-wrapper'>
         <Link to='/home'>
         <div className="search-button-container">
-            <img src={arrow} alt="" />
+            <img src={arrow} alt  />
         </div>
         </Link>
         
