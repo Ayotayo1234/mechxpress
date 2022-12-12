@@ -9,8 +9,8 @@ import  {Link } from 'react-router-dom'
 const Confirm =()=>{  
 
     const [searchparams] = useSearchParams();
-     console.log(`this is the client location; ${searchparams.get('id')}`);
-     console.log(`this id the mech location; ${searchparams.get('data')}`);
+    //  console.log(`this is the client location; ${searchparams.get('id')}`);
+    //  console.log(`this id the mech location; ${searchparams.get('data')}`);
     const [ clientCoordinates, setClientCoordinates] = useState()
     const [ mechCoordinates, setMechCoordinates] = useState()
     const getClientCoordinate = ()=>{
@@ -34,7 +34,7 @@ const Confirm =()=>{
     useEffect(()=>{
         getClientCoordinate();
         getMechCoordinate();
-    })
+    },[])
     
     
 return (
