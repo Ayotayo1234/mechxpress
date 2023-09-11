@@ -33,6 +33,7 @@ const Signup = () => {
             </div>
             <div className="labels">
               <label htmlFor="email">Email</label>
+            
               <input type="email"  placeholder='enter email here'/>
             </div>
             <div className="labels">
