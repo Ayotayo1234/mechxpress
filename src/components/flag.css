@@ -1,0 +1,62 @@
+/* In your CSS file, e.g., App.css */
+.flag {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid red;
+    width: 30px;
+    height: 20px;
+  }
+
+  .country{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    width: 80px;
+    position: relative;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+  }
+  .country img{
+    width: 20px;
+  }
+  .content{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;     
+    max-width: 250px;
+    position: absolute;
+    background: #fff;
+    height: 230px;
+    overflow-y: scroll;
+  }
+
+  .content::-webkit-scrollbar{
+    display: none;
+  }
+
+  .content div{
+    /* border: 0.2px solid rgb(163, 163, 163); */
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-top: none;
+    padding: 10px;
+  }
+  .content div:hover{
+  background: #e9e8e8;
+  }
+  .countryCodes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .countryCodes img{
+    width: 25px;
+    height: 15px;
+  }
+  .input{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border: 0.5px solid black;
+    max-width: 80%;
+  }
+  input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
